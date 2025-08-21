@@ -1,7 +1,7 @@
 Personal Portfolio Website
 This repository contains the source code for my personal portfolio website, designed to showcase my skills, projects, and experience as a Computer Science student. The site is built with pure HTML, CSS, and JavaScript, focusing on a clean design, smooth animations, and a great user experience.
 
-Live Version: https://lokesh2904.github.io/lokesh-portfolio/
+Live Version: https://lokesh2904.github.io
 
 ✨ Key Features
 Interactive Design: Features an animated hero section with a typing effect and an interactive particle background.
@@ -37,3 +37,4 @@ index.html: Contains all the text content, including the "About Me" section, pro
 style.css: Contains all the styling. You can change colors, fonts, and layouts here. The color variables at the top make it easy to change the theme.
 
 script.js: Contains the logic for animations, the theme toggle, and other interactive features.
+
