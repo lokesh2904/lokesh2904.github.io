@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh Mayakuntla | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="dark"> <!-- Starts in dark mode by default -->
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" id="logo" class="nav-logo">LOKESH</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn">
+                        <i class="fas fa-sun"></i> <!-- Icon changes with theme -->
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="scroll-progress-bar"></div>
+
+    <!-- Hero/Home Section -->
+    <header id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1 class="reveal name-animation">MAYAKUNTLA LOKESH</h1>
+            <p class="tagline"><span id="typing-animation"></span></p>
+            <div class="hero-social-links reveal">
+                <a href="https://www.linkedin.com/in/lokeshmayakuntla/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/lokesh2904" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/Lokesh2904/" target="_blank"><i class="fas fa-code"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="ml-symbol">
+            <i class="fas fa-brain"></i>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container reveal">
+                <h2>About Me</h2>
+                <div class="profile-picture-container">
+                    <img src="https://raw.githubusercontent.com/lokesh2904/my-portfolio-assets/main/photo.jpg" alt="Lokesh Mayakuntla" class="profile-picture">
+                </div>
+                <p>
+                    As a Final-year Computer Science student, I specialize in building efficient and scalable applications. My focus lies in system design, data science, and frontend development, where I enjoy tackling complex challenges and turning ideas into robust software solutions. I am always exploring new technologies to enhance my skills and contribute to impactful projects.
+                </p>
+                <a href="https://drive.google.com/file/d/1GCH9GPIr7NX_McDB04hB3hwCodlALk_D/view?usp=drivesdk" target="_blank" class="btn">Download Resume</a>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item reveal" data-side="right">
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - Present</span>
+                            <h3>B.Tech, Computer Science</h3>
+                            <p>VIT-AP University</p>
+                            <p class="grade">CGPA: 8.58</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal" data-side="left">
+                        <div class="timeline-content">
+                            <span class="timeline-date">2020 - 2022</span>
+                            <h3>Board of Intermediate Education</h3>
+                            <p>Space Junior College</p>
+                            <p class="grade">Percentage: 98.1%</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal" data-side="right">
+                        <div class="timeline-content">
+                            <span class="timeline-date">2019 - 2020</span>
+                            <h3>Board of Secondary Education</h3>
+                            <p>Harish E.M. School</p>
+                            <p class="grade">Percentage: 93%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Experience & Certifications</h2>
+                <div class="timeline">
+                    <div class="timeline-item reveal" data-side="right">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Feb 2024 – May 2024</span>
+                            <h3>Data Science Intern</h3>
+                            <p>Indo Euro Synchronisation</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal" data-side="left">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Certification</span>
+                            <h3>AWS Cloud Foundation</h3>
+                            <p>Amazon Web Services</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal" data-side="right">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Certification</span>
+                            <h3>PCAP: Programming Essentials</h3>
+                            <p>Python Institute</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1170&q=80" alt="MediTrack">
+                        <div class="project-info">
+                            <h3>MediTrack</h3>
+                            <p>Patient medical records management system with authentication & RBAC.</p>
+                            <div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&w=1106&q=80" alt="Diabetes Prediction App">
+                        <div class="project-info">
+                            <h3>Diabetes Prediction App</h3>
+                            <p>SVM model with hyperparameter tuning, deployed via Streamlit.</p>
+                            <div class="tags"><span>Python</span><span>Streamlit</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1170&q=80" alt="Deep Audio Classifier">
+                        <div class="project-info">
+                            <h3>Deep Audio Classifier</h3>
+                            <p>CNN model trained on ESC-50 dataset.</p>
+                             <div class="tags"><span>TensorFlow</span><span>Keras</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1555992336-fb0d29498b13?auto=format&fit=crop&w=1064&q=80" alt="QR Restaurant Ordering App">
+                        <div class="project-info">
+                            <h3>QR Restaurant Ordering App</h3>
+                            <p>Full-stack ordering system with admin panel and user login.</p>
+                            <div class="tags"><span>React</span><span>Express.js</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="cert-grid">
+                    <a href="https://drive.google.com/file/d/1lKSeTzZe-fTx_zwwxWPRwFYsehRcbMo3/view?usp=sharing" target="_blank" class="cert-card reveal">
+                        <div class="cert-icon"><i class="fas fa-database"></i></div>
+                        <h3>Data Science</h3>
+                        <p>Indo Euro Synchronisation</p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/170HIgcRncog1qn6eLogfJXOfzwOCw07H/view?usp=sharing" target="_blank" class="cert-card reveal">
+                        <div class="cert-icon"><i class="fab fa-python"></i></div>
+                        <h3>PCAP: Programming Essentials</h3>
+                        <p>Python Institute</p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1qDqCN4vEEcAM3HvGDMf01J3nhFHyHJmk/view?usp=sharing" target="_blank" class="cert-card reveal">
+                        <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                        <h3>AWS Cloud Foundation</h3>
+                        <p>Amazon Web Services</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container reveal">
+                <h2>Technical Skills</h2>
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <h3>Programming</h3>
+                        <div class="skills-list">
+                            <div class="skill-box"><i class="fab fa-python"></i><span>Python</span></div>
+                            <div class="skill-box"><i class="fab fa-java"></i><span>Java</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-box"><i class="fab fa-html5"></i><span>HTML</span></div>
+                            <div class="skill-box"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                            <div class="skill-box"><i class="fab fa-react"></i><span>React</span></div>
+                            <div class="skill-box"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                            <div class="skill-box"><span>Express.js</span></div>
+                            <div class="skill-box"><span>MongoDB</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Science</h3>
+                        <div class="skills-list">
+                            <div class="skill-box"><span>NumPy</span></div>
+                            <div class="skill-box"><span>Power BI</span></div>
+                            <div class="skill-box"><span>Tableau</span></div>
+                            <div class="skill-box"><i class="fas fa-brain"></i><span>Machine Learning</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <div class="skills-list">
+                            <div class="skill-box"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                            <div class="skill-box"><i class="fas fa-database"></i><span>SQL</span></div>
+                            <div class="skill-box"><span>Excel Macros</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container reveal">
+                <h2>Get In Touch</h2>
+                <p>Have a question or want to work together? Leave your details and I'll get back to you.</p>
+                <div class="contact-info">
+                    <a href="mailto:lokelucky2004@gmail.com"><i class="fas fa-envelope"></i> lokelucky2004@gmail.com</a>
+                    <a href="tel:+918688931323"><i class="fas fa-phone"></i> +91 8688931323</a>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mayakuntla Lokesh. All Rights Reserved.</p>
+    </footer>
+
+    <!-- External JS Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
